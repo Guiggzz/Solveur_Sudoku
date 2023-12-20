@@ -31,7 +31,7 @@ class SudokuGrid implements GridInterface
         return $cell;
     }
 
-    //! Methode set qui perme de mettre une valeur donnée à un endroit donné
+    //! Methode set qui permet de mettre une valeur donnée à un endroit donné
 
     public function set(int $rowIndex, int $columnIndex, int $value): void{
         $this->data[$rowIndex][$columnIndex] = $value;
